@@ -1,2 +1,15 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
+
+# def parrot("Squawk!")
+#     puts
+#     return 
+# end
+# parrot
+
+def parrot(name="Squawk!")
+    puts "#{name}"
+    return "#{name}" 
+end 
+
+parrot
